@@ -1,0 +1,97 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://agapetw.com/wp-content/uploads/2021/07/0b.jpg",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "1162:682",
+        "gravity": "center"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "電話聯絡",
+                "size": "lg",
+                "color": "#FFFFFF",
+                "align": "center",
+                "gravity": "center"
+              },
+              {
+                "type": "separator"
+              }
+            ],
+            "borderColor": "#FFFFF0",
+            "width": "30%",
+            "action": {
+              "type": "uri",
+              "label": "電話",
+              "uri": "tel:+886-925221225"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "加LINE",
+                "size": "lg",
+                "color": "#FFFFFF",
+                "align": "center",
+                "gravity": "center"
+              },
+              {
+                "type": "separator"
+              }
+            ],
+            "width": "30%",
+            "action": {
+              "type": "uri",
+              "label": "line",
+              "uri": "https://line.me/ti/p/RUlNC6-j7l"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "分享名片",
+                "size": "lg",
+                "color": "#FFFFFF",
+                "align": "center",
+                "gravity": "center"
+              }
+            ],
+            "width": "40%",
+            "action": {
+              "type": "uri",
+              "label": "分享",
+              "uri": "http://linecorp.com/"
+            }
+          }
+        ],
+        "position": "relative",
+        "height": "50px",
+        "backgroundColor": "#821517",
+        "borderWidth": "1px",
+        "borderColor": "#821517"
+      }
+    ],
+    "paddingAll": "0px"
+  }
+}

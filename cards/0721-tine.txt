@@ -1,0 +1,97 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://agapetw.com/wp-content/uploads/2021/07/0b.jpg",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "1162:682",
+        "gravity": "center"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "電話聯絡",
+                "size": "lg",
+                "color": "#FFFFFF",
+                "align": "center",
+                "gravity": "center"
+              },
+              {
+                "type": "separator"
+              }
+            ],
+            "borderColor": "#FFFFF0",
+            "width": "30%",
+            "action": {
+              "type": "uri",
+              "label": "電話",
+              "uri": "tel:+886-925221225"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "加LINE",
+                "size": "lg",
+                "color": "#FFFFFF",
+                "align": "center",
+                "gravity": "center"
+              },
+              {
+                "type": "separator"
+              }
+            ],
+            "width": "30%",
+            "action": {
+              "type": "uri",
+              "label": "line",
+              "uri": "https://line.me/ti/p/RUlNC6-j7l"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "分享名片",
+                "size": "lg",
+                "color": "#FFFFFF",
+                "align": "center",
+                "gravity": "center"
+              }
+            ],
+            "width": "40%",
+            "action": {
+              "type": "uri",
+              "label": "分享",
+              "uri": "https://liff.line.me/1655541651-nQO3pAjv/share-csv.html?template=aHR0cHM6Ly90dy5saW5lZG0ub25saW5lL2NhcmRzLzA3MjEtdGluZS50eHQ&csv=aHR0cHM6Ly90dy5saW5lZG0ub25saW5lL2Nzdi9jaGF0Ym90LXR3LWNvc2N1cC0yMDIwLmNzdg&key=aWQ&value=MQ"
+            }
+          }
+        ],
+        "position": "relative",
+        "height": "50px",
+        "backgroundColor": "#821517",
+        "borderWidth": "1px",
+        "borderColor": "#821517"
+      }
+    ],
+    "paddingAll": "0px"
+  }
+}

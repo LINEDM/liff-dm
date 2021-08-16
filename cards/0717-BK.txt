@@ -1,0 +1,122 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://agapetw.com/wp-content/uploads/2021/07/bk-1.jpg",
+            "size": "full",
+            "aspectMode": "cover",
+            "aspectRatio": "1125:675",
+            "gravity": "center",
+            "flex": 1
+          }
+        ]
+      }
+    ],
+    "paddingAll": "0px"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "分享",
+                "color": "#ffffff",
+                "align": "center",
+                "gravity": "center"
+              }
+            ],
+            "borderWidth": "1px",
+            "borderColor": "#ffffff",
+            "cornerRadius": "10px",
+            "justifyContent": "center",
+            "height": "50px",
+            "offsetStart": "xs",
+            "offsetEnd": "xs",
+            "width": "100px",
+            "margin": "10px",
+            "action": {
+              "type": "uri",
+              "label": "分享",
+              "uri": "https://liff.line.me/1655541651-nQO3pAjv/share-csv.html?template=aHR0cHM6Ly90dy5saW5lZG0ub25saW5lL2NhcmRzLzA3MTctQksudHh0&csv=aHR0cHM6Ly90dy5saW5lZG0ub25saW5lL2Nzdi9jaGF0Ym90LXR3LWNvc2N1cC0yMDIwLmNzdg&key=aWQ&value=MQ"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "+LINE",
+                "color": "#ffffff",
+                "align": "center",
+                "gravity": "center"
+              }
+            ],
+            "borderWidth": "1px",
+            "borderColor": "#ffffff",
+            "cornerRadius": "10px",
+            "justifyContent": "center",
+            "offsetStart": "xs",
+            "offsetEnd": "xs",
+            "margin": "10px",
+            "width": "100px",
+            "height": "50px",
+            "action": {
+              "type": "uri",
+              "label": "+line",
+              "uri": "https://line.me/ti/p/sa2DrO5TSl"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "商城簡介",
+                "color": "#ffffff",
+                "align": "center",
+                "gravity": "center"
+              }
+            ],
+            "borderWidth": "1px",
+            "borderColor": "#ffffff",
+            "cornerRadius": "10px",
+            "justifyContent": "center",
+            "offsetEnd": "xs",
+            "offsetStart": "xs",
+            "margin": "10px",
+            "width": "100px",
+            "height": "50px",
+            "action": {
+              "type": "uri",
+              "label": "商城簡介",
+              "uri": "https://agapetw.com/index.php/0717-2/"
+            }
+          }
+        ],
+        "paddingAll": "xs"
+      }
+    ],
+    "paddingAll": "20px",
+    "backgroundColor": "#464F69"
+  }
+}
